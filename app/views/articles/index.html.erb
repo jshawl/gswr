@@ -1,0 +1,13 @@
+<h1>All Articles</h1>
+
+<% @articles.each do |a| %>
+  <p>
+    <strong>Title:</strong>
+    <%= a.title %>
+  </p>
+  <p>
+    <strong>Text:</strong>
+    <%= a.text %>
+  </p>
+  <hr>
+<% end %>
